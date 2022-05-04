@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/tv_registration_id"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Registration">
+
+   </TextView>
+
+    <EditText
+        android:id="@+id/et_first_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_registration_id"
+        android:hint="First Name">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_second_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Name"
+        android:layout_below="@id/et_first_name_id">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_User_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:layout_below="@id/et_second_name_id">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_email_address_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:layout_below="@id/et_User_name_id">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_phone_number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:layout_below="@id/et_email_address_id">
+
+    </EditText>
+
+ <Button
+     android:id="@+id/btn_submit_id"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/et_phone_number_id"
+     android:text="Register">
+
+ </Button>
+
+
+</RelativeLayout>
